@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+<style>
+body {
+  background-image: url('stock.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.but{
+background-color:  #44d43b;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor:pointer;
+  font-family:Arial;
+  font-weight:Bold;
+}
+.navi {
+  overflow: hidden;
+  padding-left:90px;
+  font-family:Arial;
+  color:white;
+  font-weight:Bold;
+
+}
+
+.navi a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Arial;
+}
+
+/* Change the color of links on hover */
+.navi a:hover {
+  color: #4CAF50;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  color: #4CAF50;
+}
+
+/* Right-aligned section inside the top navigation */
+.nav-right {
+  float: right;
+  padding-right:120px ;
+}
+.abs{
+     padding:120px 0;
+     color:white;
+}
+.exp{
+      margin:10px;
+      font-size:20px;
+      font-family:Arial;
+      color:white;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.button1{border-radius:16px;}
+.button2{border-radius:2px;}
+</style>
+<div class="navi">
+  <a class="active" href="1.html">Home</a>
+  <a href="about.html">About</a>
+   <a href="service.html">Services</a>
+   <div class="dropdown">
+	<a href="#Services">^</a>
+	<div class="dropdown-content">
+	<a href="consulting.html">Consulting</a>
+	<a href="business.html">Business Loans</a>
+                  <a href="stock.html">Stock Market</a>
+	<a href="mut.html">Mutual Funds</a>
+	<a href="insurance.html">Insurance</a>
+	<a href="money.html">Money Market</a>
+</div>
+</div>
+  <div class="nav-right">
+    <a href="Blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <button class="but button2">SIGN UP NOW</button>
+  </div>
+</div>
+<div class="abs">
+<center>
+<p1 style="font-size:50px;font-family:Verdana">Stock Markets</p1>
+<p class="exp">From a tiny garage to a multi-million dollar company, we</p>
+<p class="exp">innovated our way to the top.</p>
+</center>
+</div>
+</body>
+</html>
